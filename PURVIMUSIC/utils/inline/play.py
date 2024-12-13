@@ -72,7 +72,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/Star_Boy_96_vibes",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PURVI_UPDATES",
+                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+YTq567GbiJY3M2Fl",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -94,7 +94,7 @@ def stream_markup(_, chat_id):
                 text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/Star_Boy_96_vibes",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PURVI_UPDATES",
+                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+YTq567GbiJY3M2Fl",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
