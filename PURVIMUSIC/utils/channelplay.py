@@ -1,5 +1,5 @@
-from PURVIMUSIC import app
-from PURVIMUSIC.utils.database import get_cmode
+from Starboymusic import app
+from Starboymusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

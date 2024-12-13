@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from PURVIMUSIC import app
-from PURVIMUSIC.core.userbot import assistants
-from PURVIMUSIC.misc import SUDOERS, mongodb
-from PURVIMUSIC.plugins import ALL_MODULES
-from PURVIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from PURVIMUSIC.utils.decorators.language import language, languageCB
-from PURVIMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from Starboymusic import app
+from Starboymusic.core.userbot import assistants
+from Starboymusic.misc import SUDOERS, mongodb
+from Starboymusic.plugins import ALL_MODULES
+from Starboymusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from Starboymusic.utils.decorators.language import language, languageCB
+from Starboymusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

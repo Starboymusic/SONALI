@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.database import get_loop
-from PURVIMUSIC.utils.decorators import AdminRightsCheck
-from PURVIMUSIC.utils.inline import close_markup, stream_markup
-from PURVIMUSIC.utils.stream.autoclear import auto_clean
-from PURVIMUSIC.utils.thumbnails import get_thumb
+from Starboymusic import YouTube, app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import db
+from Starboymusic.utils.database import get_loop
+from Starboymusic.utils.decorators import AdminRightsCheck
+from Starboymusic.utils.inline import close_markup, stream_markup
+from Starboymusic.utils.stream.autoclear import auto_clean
+from Starboymusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

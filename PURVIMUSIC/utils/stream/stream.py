@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from PURVIMUSIC import Carbon, YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.database import add_active_video_chat, is_active_chat
-from PURVIMUSIC.utils.exceptions import AssistantErr
-from PURVIMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from PURVIMUSIC.utils.pastebin import PURVIBin
-from PURVIMUSIC.utils.stream.queue import put_queue, put_queue_index
-from PURVIMUSIC.utils.thumbnails import get_thumb
+from Starboymusic import Carbon, YouTube, app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import db
+from Starboymusic.utils.database import add_active_video_chat, is_active_chat
+from Starboymusic.utils.exceptions import AssistantErr
+from Starboymusic.utils.inline import aq_markup, close_markup, stream_markup
+from Starboymusic.utils.pastebin import PURVIBin
+from Starboymusic.utils.stream.queue import put_queue, put_queue_index
+from Starboymusic.utils.thumbnails import get_thumb
 
 
 async def stream(

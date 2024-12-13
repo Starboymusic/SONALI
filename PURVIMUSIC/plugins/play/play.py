@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from PURVIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.utils import seconds_to_min, time_to_seconds
-from PURVIMUSIC.utils.channelplay import get_channeplayCB
-from PURVIMUSIC.utils.decorators.language import languageCB
-from PURVIMUSIC.utils.decorators.play import PlayWrapper
-from PURVIMUSIC.utils.formatters import formats
-from PURVIMUSIC.utils.inline import (
+from Starboymusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Starboymusic.core.call import PURVI
+from Starboymusic.utils import seconds_to_min, time_to_seconds
+from Starboymusic.utils.channelplay import get_channeplayCB
+from Starboymusic.utils.decorators.language import languageCB
+from Starboymusic.utils.decorators.play import PlayWrapper
+from Starboymusic.utils.formatters import formats
+from Starboymusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from PURVIMUSIC.utils.logger import play_logs
-from PURVIMUSIC.utils.stream.stream import stream
+from Starboymusic.utils.logger import play_logs
+from Starboymusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

@@ -1,8 +1,8 @@
-from PURVIMUSIC.core.bot import PURVI
-from PURVIMUSIC.core.dir import dirr
-from PURVIMUSIC.core.git import git
-from PURVIMUSIC.core.userbot import Userbot
-from PURVIMUSIC.misc import dbb, heroku
+from Starboymusic.core.bot import PURVI
+from Starboymusic.core.dir import dirr
+from Starboymusic.core.git import git
+from Starboymusic.core.userbot import Userbot
+from Starboymusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

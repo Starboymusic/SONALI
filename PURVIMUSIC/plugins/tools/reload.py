@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from PURVIMUSIC import app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from PURVIMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from PURVIMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from Starboymusic import app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import db
+from Starboymusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from Starboymusic.utils.decorators import ActualAdminCB, AdminActual, language
+from Starboymusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

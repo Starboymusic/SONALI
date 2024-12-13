@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from PURVIMUSIC import LOGGER, app, userbot
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import sudo
-from PURVIMUSIC.plugins import ALL_MODULES
-from PURVIMUSIC.utils.database import get_banned_users, get_gbanned
+from Starboymusic import LOGGER, app, userbot
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import sudo
+from Starboymusic.plugins import ALL_MODULES
+from Starboymusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("PURVIMUSIC.plugins" + all_module)
-    LOGGER("PURVIMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("Starboymusic.plugins" + all_module)
+    LOGGER("Starboymusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await PURVI.start()
     try:
         await PURVI.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("PURVIMUSIC").error(
+        LOGGER("Starboymusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await PURVI.decorators()
-    LOGGER("PURVIMUSIC").info(
+    LOGGER("Starboymusic").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("PURVIMUSIC").info("𝗦𝗧𝗢𝗣 𝗣𝗨𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("Starboymusic").info("𝗦𝗧𝗢𝗣 𝗣𝗨𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":

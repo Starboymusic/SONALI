@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import SUDOERS, db
-from PURVIMUSIC.utils import AdminRightsCheck
-from PURVIMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from PURVIMUSIC.utils.decorators.language import languageCB
-from PURVIMUSIC.utils.inline import close_markup, speed_markup
+from Starboymusic import app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import SUDOERS, db
+from Starboymusic.utils import AdminRightsCheck
+from Starboymusic.utils.database import is_active_chat, is_nonadmin_chat
+from Starboymusic.utils.decorators.language import languageCB
+from Starboymusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

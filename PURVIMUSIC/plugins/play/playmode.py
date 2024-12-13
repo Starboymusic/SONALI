@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from PURVIMUSIC.utils.decorators import language
-from PURVIMUSIC.utils.inline.settings import playmode_users_markup
+from Starboymusic import app
+from Starboymusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from Starboymusic.utils.decorators import language
+from Starboymusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from PURVIMUSIC import app
+from Starboymusic import app
 from pyrogram.types import InputMediaVideo
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import add_sudo, remove_sudo
-from PURVIMUSIC.utils.decorators.language import language
-from PURVIMUSIC.utils.extraction import extract_user
-from PURVIMUSIC.utils.inline import close_markup
+from Starboymusic.misc import SUDOERS
+from Starboymusic.utils.database import add_sudo, remove_sudo
+from Starboymusic.utils.decorators.language import language
+from Starboymusic.utils.extraction import extract_user
+from Starboymusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

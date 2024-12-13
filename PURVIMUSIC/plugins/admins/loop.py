@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.utils.database import get_loop, set_loop
-from PURVIMUSIC.utils.decorators import AdminRightsCheck
-from PURVIMUSIC.utils.inline import close_markup
+from Starboymusic import app
+from Starboymusic.utils.database import get_loop, set_loop
+from Starboymusic.utils.decorators import AdminRightsCheck
+from Starboymusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

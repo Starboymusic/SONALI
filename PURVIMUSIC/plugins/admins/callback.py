@@ -3,10 +3,10 @@ from telegram import CallbackQuery
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import SUDOERS, db
-from PURVIMUSIC.utils.database import (
+from Starboymusic import YouTube, app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import SUDOERS, db
+from Starboymusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -23,12 +23,12 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from PURVIMUSIC.utils.database import get_assistant
-from PURVIMUSIC.utils.decorators.language import languageCB
-from PURVIMUSIC.utils.formatters import seconds_to_min
-from PURVIMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from PURVIMUSIC.utils.stream.autoclear import auto_clean
-from PURVIMUSIC.utils.thumbnails import get_thumb
+from Starboymusic.utils.database import get_assistant
+from Starboymusic.utils.decorators.language import languageCB
+from Starboymusic.utils.formatters import seconds_to_min
+from Starboymusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from Starboymusic.utils.stream.autoclear import auto_clean
+from Starboymusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

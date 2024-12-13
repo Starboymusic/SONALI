@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils.formatters import check_duration, seconds_to_min
+from Starboymusic.misc import db
+from Starboymusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

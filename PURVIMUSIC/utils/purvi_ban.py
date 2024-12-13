@@ -1,5 +1,5 @@
 from pyrogram import filters
-from PURVIMUSIC.utils.admin_check import admin_check
+from Starboymusic.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True

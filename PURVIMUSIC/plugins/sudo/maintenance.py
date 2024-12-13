@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import (
+from Starboymusic import app
+from Starboymusic.misc import SUDOERS
+from Starboymusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

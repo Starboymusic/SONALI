@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import (
+from Starboymusic import app
+from Starboymusic.misc import SUDOERS
+from Starboymusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from PURVIMUSIC.utils.decorators.language import language
-from PURVIMUSIC.utils.formatters import alpha_to_int
+from Starboymusic.utils.decorators.language import language
+from Starboymusic.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
@@ -117,7 +117,7 @@ async def braodcast_message(client, message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_5"])
         text = _["broad_6"]
-        from PURVIMUSIC.core.userbot import assistants
+        from Starboymusic.core.userbot import assistants
 
         for num in assistants:
             sent = 0

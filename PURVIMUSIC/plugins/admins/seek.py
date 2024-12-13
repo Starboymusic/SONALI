@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.core.call import PURVI
-from PURVIMUSIC.misc import db
-from PURVIMUSIC.utils import AdminRightsCheck, seconds_to_min
-from PURVIMUSIC.utils.inline import close_markup
+from Starboymusic import YouTube, app
+from Starboymusic.core.call import PURVI
+from Starboymusic.misc import db
+from Starboymusic.utils import AdminRightsCheck, seconds_to_min
+from Starboymusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.database import add_gban_user, remove_gban_user
-from PURVIMUSIC.utils.decorators.language import language
-from PURVIMUSIC.utils.extraction import extract_user
+from Starboymusic import app
+from Starboymusic.misc import SUDOERS
+from Starboymusic.utils.database import add_gban_user, remove_gban_user
+from Starboymusic.utils.decorators.language import language
+from Starboymusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

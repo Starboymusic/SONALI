@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from PURVIMUSIC.utils.database import is_on_off
-from PURVIMUSIC.utils.formatters import time_to_seconds
+from Starboymusic.utils.database import is_on_off
+from Starboymusic.utils.formatters import time_to_seconds
 
 async def shell_cmd(cmd):
     proc = await asyncio.create_subprocess_shell(
@@ -26,7 +26,7 @@ async def shell_cmd(cmd):
     return out.decode("utf-8")
 
 
-cookies_file = "PURVIMUSIC/assets/cookies.txt"
+cookies_file = "Starboymusic/assets/cookies.txt"
 
 class YouTubeAPI:
     def __init__(self):

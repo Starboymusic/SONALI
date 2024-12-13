@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS
-from PURVIMUSIC.utils.decorators.language import language
+from Starboymusic import app
+from Starboymusic.misc import SUDOERS
+from Starboymusic.utils.decorators.language import language
 
 
 def testspeed(m, _):

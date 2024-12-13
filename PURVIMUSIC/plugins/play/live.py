@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from PURVIMUSIC import YouTube, app
-from PURVIMUSIC.utils.channelplay import get_channeplayCB
-from PURVIMUSIC.utils.decorators.language import languageCB
-from PURVIMUSIC.utils.stream.stream import stream
+from Starboymusic import YouTube, app
+from Starboymusic.utils.channelplay import get_channeplayCB
+from Starboymusic.utils.decorators.language import languageCB
+from Starboymusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

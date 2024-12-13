@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from PURVIMUSIC import app
-from PURVIMUSIC.misc import SUDOERS, db
-from PURVIMUSIC.utils.database import (
+from Starboymusic import app
+from Starboymusic.misc import SUDOERS, db
+from Starboymusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

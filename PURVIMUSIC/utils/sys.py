@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from PURVIMUSIC.misc import _boot_
-from PURVIMUSIC.utils.formatters import get_readable_time
+from Starboymusic.misc import _boot_
+from Starboymusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

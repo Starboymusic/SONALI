@@ -11,7 +11,7 @@ from PIL import ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
 
-from PURVIMUSIC import app
+from Starboymusic import app
 from config import YOUTUBE_IMG_URL
 
 
